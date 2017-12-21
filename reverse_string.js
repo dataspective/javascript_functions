@@ -1,5 +1,6 @@
 /*
  * JavaScript function to reverse a string
+ * Author: Derek Fermaint
  */
 
  // without using JS methods
