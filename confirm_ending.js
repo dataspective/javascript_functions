@@ -9,18 +9,16 @@
  * Output: true
  */
 
- function confirmEnding(str, target) {
- 	var newStr = str.split("");
- 	var newTar = target.split("");
+function confirmEnding(str, target) {
  	var bool = false;
  	var index = 0;
  	// iterates through end of string, verifies if each char is equivalent
- 	for(var i = newStr.length - newTar.length; i < newStr.length; i++){
- 		if(newStr[i] == newTar[index]){
+ 	for(var i = (str.length - target.length); i < str.length; i++){
+ 		if(str.substring(i) == target.substring(index))
  			bool = true;
- 		}
  		else return false;
  		index++;
  	}
  	return bool;
  }
+confirmEnding("Bastian", "n");

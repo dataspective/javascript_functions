@@ -16,7 +16,7 @@
  	// Checks each element in sub array of given array
  	for (var i = 0; i < array.length; i++){
  		for(var j = 0; j < newArray.length; j++){
- 			// finds largest integer, pushes as new array element
+ 			// Finds largest integer, pushes as new array element
  			if(array[i][j] > newArray[index]){
  				newArray[index] = array[i][j];
  			}

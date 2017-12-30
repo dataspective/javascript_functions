@@ -21,3 +21,10 @@
  		return strPrint;
  	}
  }
+
+ // Optimized using .repeat()
+ function repeatStringNumTimes(str, num) {
+  if(num < 1)
+    return "";
+  else return str.repeat(num);
+}

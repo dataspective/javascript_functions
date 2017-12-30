@@ -7,7 +7,7 @@
  */
 
  function findLongestWord(string_input){
- 	var strArray = strin_input.split(" ");
+ 	var strArray = string_input.split(" ");
  	var largest = "";
  	// Compares each word against eachother
 	 for(var i = 0; i < strArray.length; i++){

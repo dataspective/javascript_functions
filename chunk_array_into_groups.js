@@ -17,7 +17,7 @@
  		if(arr.length - i < size)
  			size = arr.length - i;
  		for(var k = 0; k < size; k++){
- 			smaller_array[k] = arr[i + k];
+ 			smaller_array.push(arr[i + k]);
  		}
  		// puts grouped arrrays into resulting array
  		result_array.push(smaller_array);

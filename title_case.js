@@ -6,13 +6,14 @@
  */
 
  function titleCase(input){
+ 	// Lower case the input, convert it to an array of words
  	var str = input.toLowerCase();
  	str = str.split(" ");
- 	// goes through each word and capitalizes
+ 	// Go through each word and capitalizes first letter
  	for(var i = 0; i < str.length; i++){
  		var firstLetter = str[i][0].toUpperCase();
  		var restOfWord = str[i].slice(1);
  		str[i] = firstLetter + restOfWord;
- 	} // returns entire sentence with each capitalized word
+ 	} // Return the entire sentence
  	return str.join(" ");
  }
